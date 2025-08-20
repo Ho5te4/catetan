@@ -1,0 +1,99 @@
+/* Mengimpor font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.login-page-background {
+  font-family: 'Inter', sans-serif;
+  /* Background abu-abu arang yang sangat gelap */
+  background-color: #1a1d21; 
+  color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.login-container {
+  /* Kotak login, sedikit lebih terang */
+  background-color: #252a31; 
+  padding: 40px 35px;
+  border-radius: 16px; /* Sudut yang lebih lembut */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  /* Warna teks "Hello." */
+  color: #ffffff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #3c434e;
+  border-radius: 25px;
+  background-color: #1a1d21; /* Warna input sama dengan background utama */
+  color: #f8f9fa;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input::placeholder {
+  color: #7a828e;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #5691f5; /* Warna biru saat input aktif */
+  box-shadow: 0 0 0 3px rgba(86, 145, 245, 0.25);
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.button-group button {
+  width: 85%;
+  padding: 17px;
+  margin-left: 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #3a548a; /* Warna biru yang lebih kalem */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #4a69ac;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #c0c2c5;
+  border: 1px solid #3c434e;
+}
+
+.btn-secondary:hover {
+  background-color: #3c434e;
+  color: white;
+}

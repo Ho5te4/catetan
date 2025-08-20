@@ -1,0 +1,18 @@
+{
+    "user": {
+        "username": "admin",
+        "password": "admin"
+    },
+    "note": [
+        {
+            "id": "aW2Bc",
+            "judul": "Indonesia Gelap",
+            "cerita": "Indonesia sudah memasuki babak baru yaitu era kegelapan, selesai."
+        },
+        {
+            "id": "B3sGj",
+            "judul": "tes",
+            "cerita": "tes"
+        }
+    ]
+}

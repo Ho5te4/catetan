@@ -1,0 +1,79 @@
+.AppContainer {
+    background-color: #252a31;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: white;
+}
+
+.input-container input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #3c434e;
+  border-radius: 25px;
+  background-color: #1a1d21; /* Warna input sama dengan background utama */
+  color: #f8f9fa;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-container input::placeholder {
+  color: #7a828e;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: #5691f5; /* Warna biru saat input aktif */
+  box-shadow: 0 0 0 3px rgba(86, 145, 245, 0.25);
+}
+
+.input-judul {
+    margin-bottom: 10px;
+}
+
+.input-cerita textarea {
+    height: 100px;
+    font-size: 87%;
+    align-self: flex-start;
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #3c434e;
+    border-radius: 25px;
+    background-color: #1a1d21; /* Warna input sama dengan background utama */
+    color: #f8f9fa;
+    font-size: 95%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-cerita textarea::placeholder {
+  color: #7a828e;
+}
+
+.input-cerita textarea:focus {
+  outline: none;
+  border-color: #5691f5; /* Warna biru saat input aktif */
+  box-shadow: 0 0 0 3px rgba(86, 145, 245, 0.25);
+}
+
+.saveButton {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+  width: 85%;
+  padding: 15px;
+  margin-left: 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #3a548a; /* Warna biru yang lebih kalem */
+  color: white;
+}
+
+.saveButton:hover {
+  background-color: #4a69ac;
+  transform: translateY(-2px);
+}
